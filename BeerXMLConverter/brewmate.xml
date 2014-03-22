@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<?xml-stylesheet href='http://www.brewmate.net/brewmate.xsl' type='text/xsl'?>
+<!--BeerXML Format Recipe - Generated with BrewMate - www.brewmate.net-->
+<RECIPES>
+  <RECIPE>
+    <NAME>Nygaard Jacobsen Sommer Wit</NAME>
+    <VERSION>1</VERSION>
+    <TYPE>Partial Mash</TYPE>
+    <STYLE>
+      <NAME>Witbier</NAME>
+    </STYLE>
+    <BREWER>BrewMate</BREWER>
+    <BATCH_SIZE>25</BATCH_SIZE>
+    <BOIL_SIZE>27.5</BOIL_SIZE>
+    <BOIL_TIME>60</BOIL_TIME>
+    <EFFICIENCY>70</EFFICIENCY>
+    <HOPS>
+      <HOP>
+        <NAME>Saaz</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>3.2</ALPHA>
+        <AMOUNT>0.03</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>60</TIME>
+        <FORM>Pellet</FORM>
+      </HOP>
+      <HOP>
+        <NAME>Saaz</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>3.2</ALPHA>
+        <AMOUNT>0.03</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>15</TIME>
+        <FORM>Pellet</FORM>
+      </HOP>
+    </HOPS>
+    <FERMENTABLES>
+      <FERMENTABLE>
+        <NAME>Pilsner</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>4.005</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>80.434782608695485</YIELD>
+        <COLOR>1.7</COLOR>
+        <POTENTIAL>1.037</POTENTIAL>
+        <PERCENTAGE>80.02</PERCENTAGE>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Wheat Malt</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.500</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>82.608695652173992</YIELD>
+        <COLOR>2</COLOR>
+        <POTENTIAL>1.038</POTENTIAL>
+        <PERCENTAGE>9.99</PERCENTAGE>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Wheat Malt, Dark</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.500</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>82.608695652173992</YIELD>
+        <COLOR>7</COLOR>
+        <POTENTIAL>1.038</POTENTIAL>
+        <PERCENTAGE>9.99</PERCENTAGE>
+      </FERMENTABLE>
+    </FERMENTABLES>
+    <MISCS>
+      <MISC>
+        <NAME>Coriander Seed</NAME>
+        <VERSION>1</VERSION>
+        <TYPE>Spice</TYPE>
+        <USE>Boil</USE>
+        <TIME>15</TIME>
+        <AMOUNT>0.02</AMOUNT>
+      </MISC>
+      <MISC>
+        <NAME>Orange Peel</NAME>
+        <VERSION>1</VERSION>
+        <TYPE>Spice</TYPE>
+        <USE>Boil</USE>
+        <TIME>15</TIME>
+        <AMOUNT>0.04</AMOUNT>
+      </MISC>
+    </MISCS>
+    <YEASTS>
+      <YEAST>
+        <NAME>WLP400 - Belgian Wit Ale</NAME>
+        <VERSION>1</VERSION>
+        <ATTENUATION>75</ATTENUATION>
+      </YEAST>
+    </YEASTS>
+    <WATERS></WATERS>
+    <MASH>
+      <NAME></NAME>
+      <VERSION>1</VERSION>
+      <MASH_STEPS>
+        <MASH_STEP>
+          <NAME>Saccharification Rest</NAME>
+          <VERSION>1</VERSION>
+          <TYPE>Infusion</TYPE>
+          <STEP_TEMP>65</STEP_TEMP>
+          <STEP_TIME>60</STEP_TIME>
+        </MASH_STEP>
+      </MASH_STEPS>
+    </MASH>
+    <NOTES></NOTES>
+    <OG>1.044</OG>
+    <PRIMARY_TEMP>20</PRIMARY_TEMP>
+    <!--BrewMate XLST-->
+    <FG>1.011</FG>
+    <CALCCOLOUR>3.7</CALCCOLOUR>
+    <CALCIBU>19.1</CALCIBU>
+    <!--BrewMate Specific Settings-->
+    <BIAB>0</BIAB>
+    <IBUCalcMethod>2</IBUCalcMethod>
+    <GrainCalcMethod>2</GrainCalcMethod>
+    <StyleNaziMode>1</StyleNaziMode>
+    <IsNoChill>1</IsNoChill>
+    <GrainUnits>1</GrainUnits>
+    <HopsUnits>0</HopsUnits>
+    <VolumeUnits>1</VolumeUnits>
+    <TemperatureUnits>0</TemperatureUnits>
+    <Colour>0</Colour>
+    <GrainTemp>0</GrainTemp>
+    <StrikeWater>15</StrikeWater>
+    <GrainAbsorbtion>0.9</GrainAbsorbtion>
+    <WatertoGrainRatio>3</WatertoGrainRatio>
+    <SpargeDeadSpace></SpargeDeadSpace>
+    <SpargeTempDesired>0</SpargeTempDesired>
+    <TopUpWater></TopUpWater>
+    <PercentEvap>10</PercentEvap>
+    <TrubChillerLosses></TrubChillerLosses>
+    <calendarpressed>0</calendarpressed>
+    <brewdayDate></brewdayDate>
+    <yeastpitchDate></yeastpitchDate>
+    <primaryDate></primaryDate>
+    <secondaryDate></secondaryDate>
+    <keggingDate></keggingDate>
+    <serveDate></serveDate>
+    <brewdayEnabled>1</brewdayEnabled>
+    <yeastpitchEnabled>1</yeastpitchEnabled>
+    <primaryEnabled>1</primaryEnabled>
+    <secondaryEnabled>0</secondaryEnabled>
+    <keggingEnabled>1</keggingEnabled>
+    <serveEnabled>1</serveEnabled>
+  </RECIPE>
+</RECIPES>
