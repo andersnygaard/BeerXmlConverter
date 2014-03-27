@@ -33,13 +33,25 @@ namespace BeerXml.Recipe
             {
                 Name = nav.SelectSingleNode("RECIPE/NAME") == null ? "" : nav.SelectSingleNode("RECIPE/NAME").Value,
                 Style = nav.SelectSingleNode("RECIPE/STYLE/NAME") == null ? "" : nav.SelectSingleNode("RECIPE/STYLE/NAME").Value,
-                Color = nav.SelectSingleNode("RECIPE/COLOR") == null ? "" : nav.SelectSingleNode("RECIPE/COLOR").Value,
                 Type = nav.SelectSingleNode("RECIPE/TYPE") == null ? "" : nav.SelectSingleNode("RECIPE/TYPE").Value,
                 BatchSize = nav.SelectSingleNode("RECIPE/BATCH_SIZE") == null ? "" : nav.SelectSingleNode("RECIPE/BATCH_SIZE").Value,
                 Efficiency = nav.SelectSingleNode("RECIPE/EFFICIENCY") == null ? "" : nav.SelectSingleNode("RECIPE/EFFICIENCY").Value,
                 Og = nav.SelectSingleNode("RECIPE/OG") == null ? "" : nav.SelectSingleNode("RECIPE/OG").Value,
                 Fg = nav.SelectSingleNode("RECIPE/FG") == null ? "" : nav.SelectSingleNode("RECIPE/FG").Value,
             };
+
+            if (nav.SelectSingleNode("RECIPE/COLOR") != null)
+            {
+                recipe.Color = nav.SelectSingleNode("RECIPE/COLOR").Value;
+            }
+            else if (nav.SelectSingleNode("RECIPE/STYLE/COLOR_MIN") != null)
+            {
+                recipe.Color = nav.SelectSingleNode("RECIPE/STYLE/COLOR_MIN").Value;
+            }
+            else if (nav.SelectSingleNode("RECIPE/CALCCOLOUR") != null)
+            {
+                recipe.Color = nav.SelectSingleNode("RECIPE/CALCCOLOUR").Value;
+            }
 
             return recipe;
         }

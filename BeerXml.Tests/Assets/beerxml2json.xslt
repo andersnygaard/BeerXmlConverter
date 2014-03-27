@@ -5,7 +5,12 @@
       "description": {
       "name": "<xsl:value-of select="NAME"/>",
       "style": "<xsl:value-of select="STYLE/NAME"/>",
-      "color": "<xsl:value-of select="CALCIBU"/>",
+      <xsl:if test="STYLE/COLOR_MIN">
+        color": "<xsl:value-of select="STYLE/COLOR_MIN"/>",
+      </xsl:if>
+      <xsl:if test="CALCCOLOUR">
+        color": "<xsl:value-of select="CALCCOLOUR"/>",
+      </xsl:if>
       "type": "<xsl:value-of select="TYPE"/>",
       "batchSize": "<xsl:value-of select="BATCH_SIZE"/>",
       "efficiency": "<xsl:value-of select="EFFICIENCY"/>",
